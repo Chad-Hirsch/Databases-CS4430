@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="457.0" prefWidth="1312.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PendigOrderController">
+   <children>
+      <TableView fx:id="Table" prefHeight="407.0" prefWidth="949.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="OrderID" prefWidth="75.0" text="Order ID" />
+          <TableColumn fx:id="CustomerID" prefWidth="98.0" text="Customer ID" />
+            <TableColumn fx:id="EmployeeID" prefWidth="97.0" text="Employee ID" />
+            <TableColumn fx:id="OrderDate" prefWidth="90.0" text="Order Date" />
+            <TableColumn fx:id="RequiredDate" prefWidth="116.0" text="Required Date" />
+            <TableColumn fx:id="ShippedDate" minWidth="4.0" prefWidth="108.0" text="Shipped Date" />
+            <TableColumn fx:id="ShipVia" minWidth="0.0" prefWidth="75.0" text="Ship Via" />
+            <TableColumn fx:id="Freight" minWidth="7.0" prefWidth="69.0" text="Freight" />
+            <TableColumn fx:id="ShipName" prefWidth="93.0" text="Ship Name" />
+            <TableColumn fx:id="ShipAddress" prefWidth="109.0" text="Ship Address" />
+            <TableColumn fx:id="ShipCity" prefWidth="84.0" text="Ship City" />
+            <TableColumn fx:id="ShipRegion" prefWidth="93.0" text="Ship Region" />
+            <TableColumn fx:id="ShipPostalCode" prefWidth="107.0" text="Ship Postal Code" />
+            <TableColumn fx:id="ShipCountry" prefWidth="97.0" text="Ship Country" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

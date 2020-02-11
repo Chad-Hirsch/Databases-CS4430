@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="457.0" prefWidth="1160.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OrderController">
+   <children>
+      <Label layoutX="37.0" layoutY="47.0" prefHeight="31.0" prefWidth="187.0" text="Order Date">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="428.0" layoutY="47.0" prefHeight="31.0" prefWidth="187.0" text="Required Date">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="104.0" prefHeight="31.0" prefWidth="187.0" text="Freight">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Freight" layoutX="201.0" layoutY="104.0" />
+      <Label layoutX="428.0" layoutY="104.0" prefHeight="31.0" prefWidth="187.0" text="Ship Name">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ShipName" layoutX="579.0" layoutY="104.0" />
+      <Label layoutX="37.0" layoutY="165.0" prefHeight="31.0" prefWidth="187.0" text="Ship Address">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ShipAddress" layoutX="201.0" layoutY="165.0" />
+      <Label layoutX="428.0" layoutY="165.0" prefHeight="31.0" prefWidth="187.0" text="Ship City">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ShipCity" layoutX="579.0" layoutY="165.0" />
+      <Label layoutX="37.0" layoutY="222.0" prefHeight="31.0" prefWidth="187.0" text="Ship Region ">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ShipRegion" layoutX="201.0" layoutY="222.0" />
+      <Button fx:id="Save" layoutX="959.0" layoutY="412.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="187.0" text="Save" />
+      <Label layoutX="428.0" layoutY="222.0" prefHeight="31.0" prefWidth="187.0" text="Ship Country">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ShipCountry" layoutX="579.0" layoutY="222.0" />
+      <DatePicker fx:id="OrderDate" layoutX="201.0" layoutY="47.0" prefHeight="31.0" prefWidth="187.0" />
+      <DatePicker fx:id="RequiredDate" layoutX="579.0" layoutY="47.0" prefHeight="31.0" prefWidth="187.0" />
+      <Label layoutX="37.0" layoutY="268.0" prefHeight="31.0" prefWidth="187.0" text="Customer ID">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CustomerID" layoutX="201.0" layoutY="268.0" />
+      <Label layoutX="428.0" layoutY="268.0" prefHeight="31.0" prefWidth="187.0" text="Employee ID">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="EmployeeID" layoutX="579.0" layoutY="268.0" />
+      <Label layoutX="37.0" layoutY="313.0" prefHeight="31.0" prefWidth="187.0" text="Shipped Date">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="ShippedDate" layoutX="201.0" layoutY="313.0" prefHeight="31.0" prefWidth="187.0" />
+      <Label layoutX="428.0" layoutY="313.0" prefHeight="31.0" prefWidth="187.0" text="Ship via">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ShipVia" layoutX="579.0" layoutY="313.0" />
+      <Label layoutX="37.0" layoutY="366.0" prefHeight="31.0" prefWidth="187.0" text="Ship Postal Code">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ShipPostalCode" layoutX="201.0" layoutY="366.0" />
+      <Label layoutX="790.0" layoutY="47.0" prefHeight="31.0" prefWidth="187.0" text="Product ID">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ProductID" layoutX="965.0" layoutY="47.0" />
+      <TextField fx:id="UnitPrice" layoutX="965.0" layoutY="104.0" />
+      <TextField fx:id="Quantity" layoutX="965.0" layoutY="165.0" />
+      <Label layoutX="790.0" layoutY="104.0" prefHeight="31.0" prefWidth="187.0" text="Unit Price">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="790.0" layoutY="165.0" prefHeight="31.0" prefWidth="187.0" text="Quantity">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="790.0" layoutY="222.0" prefHeight="31.0" prefWidth="187.0" text="Discount">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Discount" layoutX="965.0" layoutY="222.0" />
+   </children>
+</AnchorPane>

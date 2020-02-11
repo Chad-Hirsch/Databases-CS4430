@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="1297.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RootController">
+   <children>
+      <MenuBar fx:id="menuBar" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <menus>
+          <Menu fx:id="File" mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="Exit" mnemonicParsing="false" text="Exit" />
+            </items>
+          </Menu>
+          <Menu fx:id="Manage" mnemonicParsing="false" text="Menage">
+            <items>
+              <MenuItem fx:id="AddCustomer" mnemonicParsing="false" text="Add Customer" />
+                  <MenuItem fx:id="AddOrder" mnemonicParsing="false" text="Add Order" />
+                  <MenuItem fx:id="RemoveOrder" mnemonicParsing="false" text="Remove Order" />
+                  <MenuItem fx:id="ShipOrder" mnemonicParsing="false" text="Ship an Order" />
+                  <MenuItem fx:id="PrintPending" mnemonicParsing="false" text="Print  Pending Orders" />
+                  <MenuItem fx:id="Restock" mnemonicParsing="false" text="Restock" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <BorderPane fx:id="Border" layoutX="336.0" layoutY="32.0" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="32.0">
+         <top>
+            <Label alignment="CENTER" prefHeight="71.0" prefWidth="493.0" text="Choose From Menu" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </top>
+         <center>
+            <Label fx:id="welcome" alignment="CENTER" prefHeight="42.0" prefWidth="456.0" text="Welcome to NorthWind" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

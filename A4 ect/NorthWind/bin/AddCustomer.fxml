@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="457.0" prefWidth="949.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CustomerController">
+   <children>
+      <TextField fx:id="CustomerID" layoutX="250.0" layoutY="47.0" />
+      <Label layoutX="37.0" layoutY="47.0" prefHeight="31.0" prefWidth="187.0" text="Customer ID">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="475.0" layoutY="47.0" prefHeight="31.0" prefWidth="187.0" text="Contact Name">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ContactName" layoutX="733.0" layoutY="47.0" />
+      <Label layoutX="37.0" layoutY="104.0" prefHeight="31.0" prefWidth="187.0" text="Contact title">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ContactTitle" layoutX="250.0" layoutY="104.0" />
+      <Label layoutX="475.0" layoutY="104.0" prefHeight="31.0" prefWidth="187.0" text="Address">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Address" layoutX="733.0" layoutY="104.0" />
+      <Label layoutX="37.0" layoutY="165.0" prefHeight="31.0" prefWidth="187.0" text="Country">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Country" layoutX="250.0" layoutY="165.0" />
+      <Label layoutX="475.0" layoutY="165.0" prefHeight="31.0" prefWidth="187.0" text="Phone">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Phone" layoutX="733.0" layoutY="165.0" />
+      <Label layoutX="37.0" layoutY="222.0" prefHeight="31.0" prefWidth="187.0" text="Fax">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Fax" layoutX="250.0" layoutY="222.0" />
+      <Button fx:id="Save" layoutX="726.0" layoutY="397.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="187.0" text="Save" />
+      <Label layoutX="475.0" layoutY="222.0" prefHeight="31.0" prefWidth="187.0" text="Company Name">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CompanyName" layoutX="733.0" layoutY="222.0" />
+      <Label layoutX="37.0" layoutY="278.0" prefHeight="31.0" prefWidth="187.0" text="City">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="City" layoutX="250.0" layoutY="278.0" />
+      <Label layoutX="475.0" layoutY="278.0" prefHeight="31.0" prefWidth="187.0" text="Region">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Region" layoutX="733.0" layoutY="278.0" />
+      <Label layoutX="37.0" layoutY="323.0" prefHeight="31.0" prefWidth="187.0" text="Postal Code">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="PostalCode" layoutX="250.0" layoutY="323.0" />
+   </children>
+</AnchorPane>
